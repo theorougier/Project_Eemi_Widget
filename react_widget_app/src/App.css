@@ -94,3 +94,13 @@ h1 {
   height: 100%;
   object-fit: cover;
 }
+
+.card-informations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: gray;
+  font-size: 12px;
+  height: 100%;
+  align-items:end;
+}

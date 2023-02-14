@@ -1,14 +1,8 @@
 import React, {useState} from 'react';
-import { useNavigate } from 'react-router-dom';
+import useSearchBar from '../hooks/useSearchBar';
 
 const SearchBar = ({defaultAdresse}) => {
-  const navigate = useNavigate();
-  const [address, setAddress] = useState("");
-  function handleClick() {
-    navigate("/?adresse=" + address);
-    window.location.reload(false)
-  }
-
+  const {handleClick,address, setAddress} = useSearchBar()
   return (
     <div className='search-bar'>
       <input
