@@ -3,7 +3,7 @@ import axios, { isCancel, AxiosError } from "axios";
 import photo from '../assets/img/Old_Jerusalem_Nafura_Restaurant_courtyard.jpg'
 
 export default function RestaurantDetails(restaurant) {
-    console.log(restaurant)
+  const data = restaurant
   return (
     <div key={restaurant.restaurant.name} className="card-restaurant">
       <div><h2>{restaurant.restaurant.name}</h2></div>
