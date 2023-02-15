@@ -17,6 +17,7 @@ const SearchBar = ({ defaultAdresse }) => {
       const place = await autoCompleteRef.current.getPlace();
       setAddress(place.formatted_address);
       localStorage.setItem("address", place.formatted_address);
+      document.querySelector('#widget-content').innerHTML = ""
     });
   }, []);
 

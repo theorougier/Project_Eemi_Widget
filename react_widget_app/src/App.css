@@ -118,7 +118,7 @@ h1 {
   padding: 50px;
 }
 
-.widget-carte-container {
+.widget-carte-container, .widget-temp-container {
   padding: 20px;
   background-color: white;
   display: flex;
@@ -149,7 +149,7 @@ h1 {
   background: #6666;
  }
 
- .widget-carte-remove {
+ .widget-remove {
   position: absolute;
   top: 20px;
   right: 20px;

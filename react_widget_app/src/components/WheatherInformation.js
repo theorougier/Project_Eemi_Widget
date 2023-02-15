@@ -9,11 +9,11 @@ export default function WheatherInformation() {
                 'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
               }
         })
-
+        
     }, [])
     return (
         <div>
-
+            
         </div>
     )
 }
