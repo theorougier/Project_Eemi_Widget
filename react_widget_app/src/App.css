@@ -6,15 +6,13 @@
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
-
 }
 
-.search-bar input{
+.search-bar input {
   padding: 10px;
   border-radius: 5px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  width: 50%;
 }
 
 .search-bar button {
@@ -28,6 +26,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightblue !important;
 }
 
 html {
@@ -36,9 +35,7 @@ html {
 }
 
 #root {
-  background-image: url('assets/img/rainbow-vortex.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: lightblue !important;
 }
 
 h1 {
@@ -102,5 +99,50 @@ h1 {
   color: gray;
   font-size: 12px;
   height: 100%;
-  align-items:end;
+  align-items: end;
+}
+
+.search-bar-group-input {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.widget-button {
+  position: relative;
+}
+
+#dropdown-basic {
+  margin: 20px;
+}
+
+#widget-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 20px;
+}
+
+.widget-button .widget-button-add {
+  border-radius: 5px;
+  background-color: white;
+  padding: 50px;
+  margin: 20px;
+}
+
+.widget-carte-container {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.widget-carte-container h2 {
+  text-align: center;
+}
+
+.widget-carte-container iframe {
+  width: 100%;
 }

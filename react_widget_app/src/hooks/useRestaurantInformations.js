@@ -32,8 +32,6 @@ export default function useRestaurantInformations () {
           setRestaurants(placesData.results);
         }
       };
-  
-      fetchData();
     }, []);
 
     return {

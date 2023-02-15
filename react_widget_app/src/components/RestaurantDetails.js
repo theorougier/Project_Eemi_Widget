@@ -4,6 +4,7 @@ import photo from '../assets/img/Old_Jerusalem_Nafura_Restaurant_courtyard.jpg'
 
 export default function RestaurantDetails(restaurant) {
   const data = restaurant
+  console.log(restaurant)
   return (
     <div key={data.restaurant.name} className="card-restaurant">
       <div><h2>{data.restaurant.name}</h2></div>
